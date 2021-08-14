@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import Home from '@/routes/Home';
 import Movie from '@/routes/Movie';
 import About from '@/routes/About';
+import NotFound from '@/routes/NotFound';
 
 Vue.use(VueRouter);
 
@@ -22,6 +23,10 @@ export default new VueRouter({
         {
             path: '/about',
             component: About
+        },
+        {
+            path: '*',
+            component: NotFound
         }
     ]
 })
