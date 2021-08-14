@@ -1,0 +1,12 @@
+[build]
+    command = "npm run build"
+    functions = "functions" # functions라는 폴더에 서버리스 함수가 있을 거야~
+    publish = "dist" # dist 폴더에 들어 있을 거야~
+
+[dev]
+    framework = "#custom"
+    command = "npm run dev:webpack"
+    targetPort = 8079
+    port = 8080
+    publish = "dist"
+    autoLaunch = false

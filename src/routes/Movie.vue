@@ -2,14 +2,14 @@
   <div class="container">
     <template v-if="loading">
       <div class="skeletons">
-        <div class="skeleton poster" />
+        <div class="skeleton poster"></div>
         <div class="specs">
-          <div class="skeleton title" />
-          <div class="skeleton specs" />
-          <div class="skeleton plot" />
-          <div class="skeleton etc" />
-          <div class="skeleton etc" />
-          <div class="skeleton etc" />
+          <div class="skeleton title"></div>
+          <div class="skeleton specs"></div>
+          <div class="skeleton plot"></div>
+          <div class="skeleton etc"></div>
+          <div class="skeleton etc"></div>
+          <div class="skeleton etc"></div>
         </div>
       </div>
       <!-- page 전체의 가운데에 나타나는 로딩 -->
