@@ -3,6 +3,7 @@ const path = require('path'); // node.js에서 제공하는 path 가져옴.
 const HtmlPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
+const DotEnv = require('dotenv-webpack');
 
 module.exports = {
     resolve: {
@@ -60,7 +61,8 @@ module.exports = {
                 { from: 'static' }
             ]
         }),
-        new VueLoaderPlugin()
+        new VueLoaderPlugin(),
+        new DotEnv()
     ],
     devServer: {
         port: 8079

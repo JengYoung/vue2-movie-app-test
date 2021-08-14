@@ -1,6 +1,7 @@
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,dotenv,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,dotenv,windows
+/dist
 
 ### dotenv ###
 .env
